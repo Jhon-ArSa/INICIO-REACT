@@ -1,0 +1,84 @@
+.ejercicio2-container {
+  padding: 40px;
+  background-color: #121212;
+  min-height: 100vh;
+  color: white;
+}
+
+.back-link {
+  margin-bottom: 20px;
+}
+
+.back-link a {
+  color: #4facfe;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
+
+.nested-components-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.comp1 {
+  background-color: #6a9bd8;
+  padding: 30px;
+  border-radius: 8px;
+  color: #333;
+}
+
+.comp2 {
+  background-color: #ffd966;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.comp3 {
+  background-color: #6fa86f;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.comp4 {
+  background-color: #fff2cc;
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(223, 131, 131, 0.2);
+  text-align: center;
+  width: 250px;
+  color: #555252;
+  margin-top: 20px;
+}
+
+.data-card h3 {
+  margin: 0 0 10px 0;
+  color: #2c3e50;
+}
+
+.data-card p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
